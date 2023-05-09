@@ -4,9 +4,11 @@ export const Button = styled.div`
   display: flex;
   flex-directionL column;
   align-items: center;
+  gap: 16px;
   width: 100vw;
   height: 100vh;
   margin: 0 auto;
+  padding: 16px;
 `;
 
 export const Title = styled.h2``;
