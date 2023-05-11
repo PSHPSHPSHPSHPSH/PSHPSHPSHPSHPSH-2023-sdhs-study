@@ -30,3 +30,18 @@ export const MainWapper = styled.div`
     }
   }
 `;
+export const Input = styled.input`
+  width: 100%;
+  padding: 4px;
+  padding: 5px;
+  font-size: 1.15rem;
+  outline: none;
+  border: 1px solid #eee;
+  transition: all 0.25s;
+  /* &:focus {
+    background: linear-gradient(90deg, hotpink, lightblue);
+    background-size: 100% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+  } */
+`;
