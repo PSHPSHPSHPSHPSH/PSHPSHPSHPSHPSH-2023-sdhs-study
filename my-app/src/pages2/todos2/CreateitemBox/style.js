@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { Button } from '../../../components/Button/style';
+import { Button } from '../../../Button/style';
 
 export const InputBox = styled.div`
   dispaly: flex;

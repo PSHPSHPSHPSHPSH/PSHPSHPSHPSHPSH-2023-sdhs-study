@@ -1,32 +1,25 @@
 import styled from 'styled-components';
 
-export const Button = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
+export const InputBox = styled.div`
+  display: flex'
+  width: 100#;
 `;
 
-export const MainWapper = styled.div`
+export const Input = styled.input`
+  width: 100%;
+  padding: 4px;
+`;
+export const Button = styled.button`
   display: flex;
-  flex-direction: column;
-  align-item: center;
+  white-space: nowrap;
+  align-items: center;
   justify-content: center;
-  gap: 16px;
-  padding: 16px;
-  box-shadow: 0 0 4 5px rgba(156, 156, 156, 0.4);
-  > div {
-    font-size: 24px;
-    font-weight: 700;
-  }
-  > ${Button} {
-    padding: 8px 10px;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    &:hover {
-      background-color: darken(#f0f0f0, 10%);
-    }
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 5px 10px;
+  border: 1px solid #eee;
+  cursor: pointer;
+  &:disabled {
+    cursor: not-allowed;
   }
 `;
