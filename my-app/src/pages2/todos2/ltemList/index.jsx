@@ -1,7 +1,7 @@
 import * as S from './style';
 
 import Todo from '../../../components/Todo';
-import CheckBox from '../../../components/Checkbox';
+import CheckBox from '../../../components/CheckBox';
 
 
 function ItemList({ todos, searchValue, deleteTodo }) {
